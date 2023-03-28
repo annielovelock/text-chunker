@@ -1,0 +1,134 @@
+/* Set the font size and padding for all text areas */
+body{
+  padding:0;
+  margin:0;
+  width:100%;
+}
+textarea {
+  font-size: 16px;
+  padding: 10px;
+}
+#middle{
+  width:600px;
+  text-align: center;
+  margin-left:auto;
+   margin-right:auto;
+  margin-top:40px;
+}
+#faq{
+  width:600px;
+  content-align:left;
+  text-align: left;
+  margin:auto;
+}
+#faq-container{
+  width:100%;
+  background-color: #fff;
+}
+#chunkbox{
+  width:600px;
+  content-align:left;
+  text-align: left;
+  margin:auto;
+  overflow: hidden;
+}
+#chunkcontainer{
+  background-color: #EAF4F4;
+  width:100%;
+  margin-top:40px;
+}
+#header{
+  background-color:#5B8E7D;
+  color:white;
+  margin: 0px;
+  width:100%;
+  overflow: hidden;
+  text-align:center;
+  padding-bottom:40px;
+  padding-top:20px;
+}
+
+/* Style the input box */
+#input-box {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style the button */
+#button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #BB342F;
+  color: white;
+  border: none;
+  font-family: 'Lilita One',  sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the output box */
+#output-box {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1{
+  font-family: 'Lilita One',  sans-serif;
+  font-size:48px;
+  text-align: center;
+  padding-bottom:0;
+  margin-bottom:5px;
+}
+h2{
+  font-family: 'Lilita One',  sans-serif;}
+
+label {font-family: 'Roboto', sans-serif;}
+
+p {font-family: 'Roboto', sans-serif;
+  line-height:1.4;}
+
+.outline-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:2%;
+    transition: background-color 0.3s;
+}
+
+.outline-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5B8E7D;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+}
+
+#scroll-to-top:hover {
+  background-color: #487164;
+}
